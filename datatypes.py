@@ -1,7 +1,10 @@
 a = "   abc   "
 b = a.strip()
 print(b)
-c=a.lower()
-d=a.upper()
+c=b.lower()
+d=b.upper()
 print(c)
 print(d)
+e=["Hello","World"]
+f=" ".join(e)
+print(f)
