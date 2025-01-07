@@ -6,5 +6,5 @@ d=b.upper()
 print(c)
 print(d)
 e=["Hello","World"]
-f=" ".join(e)
+f=" + ".join(e)
 print(f)
