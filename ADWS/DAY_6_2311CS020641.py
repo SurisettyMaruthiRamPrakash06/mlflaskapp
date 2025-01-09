@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 '''Using the Pandas library, perform the following tasks:
 
 1. Create a DataFrame from the following data:
@@ -20,9 +14,7 @@
    - Calculate the average salary of employees in the DataFrame.
    - Filter and display employees who are older than 25.'''
 
-
-# In[3]:
-
+# code
 
 import pandas as pd
 data = {
@@ -54,10 +46,3 @@ print()
 filtered_df = df[df["Age"] > 25]
 print("\nEmployees older than 25:")
 print(filtered_df)
-
-
-# In[ ]:
-
-
-
-
