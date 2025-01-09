@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # # Create a List, tuple and Dictionary with 5 elements in it and how to access few elements based on the index. Try  with different examples 
-
-# In[1]:
-
 
 my_list = [10, 20, 30, 40, 50]
 my_tuple = ('a', 'b', 'c', 'd', 'e')
@@ -18,4 +12,3 @@ print("Tuple Element at Index 3:", my_tuple[3])
 
 print("Dictionary Value for Key 'one':", my_dict['one'])
 print("Dictionary Value for Key 'three':", my_dict['three'])
-
